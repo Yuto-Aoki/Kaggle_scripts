@@ -1,0 +1,7 @@
+*.csv
+
+#Python
+*.pyc
+
+#IPython
+.ipynb_checkpoints/
