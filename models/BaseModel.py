@@ -1,3 +1,8 @@
+import numpy as np
+from main import eval_qwk_lgb_regr
+from sklearn.model_selection import KFold, StratifiedKFold
+
+
 class Base_Model(object):
     
     def __init__(self, train_df, test_df, features, categoricals=[], n_splits=5, verbose=True):
